@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 /*
-    && = (AND)checks if rwo conditions are true
-    || = (OR)checks if one of the conditions is true
-     ! = (NOT)reverses the logical state of the operand
+  1  && = (AND)checks if rwo conditions are true
+  2 || = (OR)checks if one of the conditions is true
+  3  ! = (NOT)reverses the logical state of the operand
 */
 
 int main() {

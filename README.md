@@ -1,2 +1,1 @@
-Basic cpp code blocks to remember beginner syntax and basic modules,
-Lea
+Basic cpp code blocks to remember beginner syntax and basic modules. 

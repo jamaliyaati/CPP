@@ -14,6 +14,7 @@ int main() {
 
   }while(num<0);
 
+    cout << num << endl;
 
     return 0;
 }

@@ -7,7 +7,6 @@ using namespace std;
         double num1, num2, result;
 
         cout << "*********************CALC*********************" << endl;
-
         cout << "Enter an operand:(+  _  /  *) ";
         cin >> op;
         cout << "enter the first number: ";

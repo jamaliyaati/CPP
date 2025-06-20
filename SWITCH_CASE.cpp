@@ -10,16 +10,16 @@ int main() {
 
     switch (grade) {
         case 'a':
-            cout << "monday";
+            cout << "grade";
             break;
         case 'b':
-            cout << "tuesday";
+            cout << "good";
             break;
         case 'c':
-            cout << "wednesday";
+            cout << "okay";
             break;
         case 'd':
-            cout << "thursday";
+            cout << "fail";
             break;
 
         default:

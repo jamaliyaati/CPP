@@ -3,19 +3,26 @@
 using namespace std;
 int main(){
 cout << "-----------------game--------------------"<<endl;
+   
+
+
+    
     srand(time(NULL));
     char sel;
     char cpu_s;
+    char play;
+    do{
     int num = (rand()%3 +1);
-
-    
     cout<<"ENTER      R    for rock"<<endl;
     cout<<"ENTER      P    for paper"<<endl;
     cout<<"ENTER      S    for scissor"<<endl;
     cout<<": ";
     cin >> sel;
+    while (sel != 'p' && sel != 'P' && sel != 's' && sel != 'S' && sel != 'r' && sel != 'R'){
+        cout<<"PLEASE ENTER ONLY ( P, R or S): "<<endl;
+        cin>>sel;
+    }
     sel = tolower(sel);
-    
     switch(num){
         case 1 :
             cpu_s = 'r';
@@ -48,6 +55,11 @@ cout << "-----------------game--------------------"<<endl;
             }
             break;
     }
-cout << "------------------end----------------------";
+        cout<<endl;
+        cout << "Play again? (Y/N): ";
+        cin >> play;
+    }while(play == 'y' || play == 'Y');
+
+    cout<<"-------------------end-------------------";
 return 0;
 }

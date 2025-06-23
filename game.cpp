@@ -2,7 +2,7 @@
 #include <ctime>
 using namespace std;
 int main(){
-cout << "-----------------game--------------------"<<endl;
+cout << "-----------------game--------------------"<<endl<<endl;
    
 
 
